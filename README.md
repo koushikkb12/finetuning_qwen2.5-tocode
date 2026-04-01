@@ -1,5 +1,7 @@
 # Fine-Tuning Qwen2.5-7B for Code Generation
 
+The finetuned model can be accessed at https://huggingface.co/koushikkb12/Qwen2.5-7B-Code-LoRA
+
 Fine-tuned [Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B) on 122K Python code instructions using LoRA adapters, achieving **82.7% token accuracy** on held-out evaluation data. The model produces clean, functional code for common programming tasks after 4.5 hours of training on a single GPU.
 
 ---
